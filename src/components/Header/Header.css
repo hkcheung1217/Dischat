@@ -1,0 +1,40 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 15px;
+	background-color: #333;
+	color: #fff;
+	border-bottom: 5px solid #c8bbd0;
+}
+
+.header__left {
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+}
+
+.header__left > h3 {
+	font-weight: 800;
+}
+
+.header__left > span {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.header__right {
+	display: flex;
+	align-items: center;
+	flex: 0.1;
+	justify-content: space-between;
+}
+
+.header__right > .MuiButton-root > .MuiButton-label {
+	color: rgba(255, 255, 255, 0.562);
+	cursor: pointer;
+}
+
+.header__right > .MuiButton-root > .MuiButton-label:hover {
+	color: white;
+}
